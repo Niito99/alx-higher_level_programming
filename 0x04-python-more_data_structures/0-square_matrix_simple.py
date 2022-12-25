@@ -1,6 +1,6 @@
 #!/usr/bin/python3
 
-def square_matrix_simple(matrix = []):
+def square_matrix_simple(matrix=[]):
     check_len = len(matrix)
     general_matrix = []
     for x in range(0, check_len):
