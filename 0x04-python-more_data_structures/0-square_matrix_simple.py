@@ -12,5 +12,4 @@ def square_matrix_simple(matrix = []):
             value = j * j
             general_matrix[k].append(value)
         k += 1
-    
     return general_matrix
