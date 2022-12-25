@@ -9,7 +9,7 @@ def search_replace(mylist, search, replace):
 
     for i in new_list:
         if i == search:
-            mylist[k] = replace
+            mylist[new_list.index(i)] = replace
 
         k += 1
     return new_list
