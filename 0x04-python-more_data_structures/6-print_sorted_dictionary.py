@@ -8,4 +8,4 @@ def print_sorted_dictionary(a_dictioanary):
     store.sort()
     num = len(store)
     for i in range(num):
-        print("{}: {}\n".format(store[i], a_dictionary[store[i]]))
+        print("{}: {}".format(store[i], a_dictionary[store[i]]))
