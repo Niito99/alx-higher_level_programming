@@ -30,7 +30,8 @@ def matrix_divided(matrix, div):
             if not isinstance(item, (int, float)):
                 raise TypeError('matrix must be a matrix (list of lists)' +
                                 ' of integers/floats')
-    return[[round(item / div, 2) for item in inner] for inner in matrix]
+    return [[round(item / div, 2) for item in inner] for inner in matrix]
+
 
 if __name__ == "__main__":
     import doctest

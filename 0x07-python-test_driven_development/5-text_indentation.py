@@ -16,6 +16,7 @@ def text_indentation(text):
             [sen.strip(" ") for sen in text.split(char)])
     print(text, end="")
 
+
 if __name__ == "__main__":
     import doctest
     doctest.testfile("tests/5-text_indentation.txt")
