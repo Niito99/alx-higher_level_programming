@@ -6,4 +6,4 @@ for i in range(26):
         b = int(122 - (2 * (i / 2)))
     else:
         b = int(90 - (2 * (i / 2)))
-    print((list(map(chr, range(b, b+1))))[0], end='')
+    print("{}".format((list(map(chr, range(b, b+1))))[0]), end='')
