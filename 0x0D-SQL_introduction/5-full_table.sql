@@ -2,4 +2,4 @@
 
 -- This is the command that describes columns in a table 
 
-SHOW COLUMNS first_table;
+SHOW COLUMNS FROM first_table;
